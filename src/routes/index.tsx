@@ -41,7 +41,7 @@ Rules:
             Authorization: `Bearer ${apiKey}`,
           },
           body: JSON.stringify({
-            model: "nvidia/llama-3.1-nemotron-ultra-8b-instruct",
+            model: "nvidia/llama-3.1-nemotron-nano-8b-v1",
             messages: [
               { role: "system", content: systemPrompt },
               { role: "user", content: text },
